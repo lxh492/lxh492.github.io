@@ -1,0 +1,96 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css?family=Abel|Lobster');
+
+#grid {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 220px;
+  grid-gap: 10px;
+
+}
+
+#education,
+#skills {
+  background-color: rgba(218, 180, 230, 0.9);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+#experience {
+  background-color: rgba(196, 196, 196, 0.9);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+#school {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+}
+
+img {
+  border:5px;
+  border-style: dotted;
+  border-color: rgba(218, 180, 230,1);
+}
+h1 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 50px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+h3 {
+  font-family: 'Lobster', sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+body {
+  font-family: 'Abel', sans-serif;
+  background-image: url("../image/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav ul {
+  background-color: #A96BAB;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  background-color: #C4C4C4;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  padding: 0 10px;
+}
+
+a:visited {
+  color: pink;
+}
