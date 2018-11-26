@@ -1,5 +1,5 @@
 /* style.css */
-@import url('https://fonts.googleapis.com/css?family=Abel|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Abel|Lobster|Josefin+Sans:700');
 
 #grid {
   display: grid;
@@ -28,26 +28,66 @@
   grid-gap: 10px;
 }
 
-img {
-  border:5px;
-  border-style: dotted;
-  border-color: rgba(218, 180, 230,1);
+#resumeNav{
+  text-align: center;
+  background-color:gray;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  width: auto;
 }
+.selected {
+  background-color: rgb(249, 249, 16)
+}
+
+.unselected{
+  background-color: white;
+}
+
+.storyTeller{
+  background-color: black;
+  width: 960px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.storyTellerContainer{
+  text-align: center;
+}
+
+.right{
+  width: 700px;
+  font-size: 25px;
+  text-align: justify;
+}
+.left{
+  size: 300px 300px;
+}
+
+
+.introContainer{
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+
 h1 {
   font-family: 'Lobster', sans-serif;
   font-size: 50px;
-  margin-top: 5px;
+  margin: 0;
   text-align: center;
+  background-color: rgba(249, 93, 93, 0.5);
+  padding: 10px 0;
 }
 
 h2 {
-  font-family: 'Lobster', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  margin-top: 5px;
 }
 
 h3 {
-  font-family: 'Lobster', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 main {
@@ -59,9 +99,9 @@ main {
 
 body {
   font-family: 'Abel', sans-serif;
-  background-image: url("../image/background.jpg");
   background-attachment: fixed;
   background-size: cover;
+  margin: 0;
 }
 
 #wrapper {
@@ -70,27 +110,37 @@ body {
 }
 
 nav ul {
-  background-color: #A96BAB;
+  text-align: center;
+  background-color: rgb(249, 93, 93);
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+  width: auto;
 }
 
 nav li {
   display: inline-block;
-  margin-right: 20px;
+  margin: 5px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 nav a:hover {
   background-color: #C4C4C4;
 }
 
-a {
+.navLink {
   font-size: 20px;
-  color: white;
+  color: black;
   padding: 0 10px;
+  text-decoration: none;
 }
 
 a:visited {
-  color: pink;
+  color: red;
+}
+
+p {
+  margin: 0;
 }

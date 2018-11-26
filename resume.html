@@ -3,34 +3,41 @@
   <head>
     <meta charset="UTF-8" />
       <title>Lei Huang Resume</title>
-      <link href="css/style.css" rel="stylesheet" />
+      <link href="css/resume.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div id="wrapper">
       <header>
-        <h1>Lei Huang</h1>
-      </header>
+          <h1>Lei Huang</h1>
+        </header>
+
+        <nav>
+          <ul>
+            <li class='unselected'><a class="navLink" href="home.html">Home</a></li>
+            <li class='unselected'><a class="navLink" href="visualstory.html">Visual story</a></li>
+            <li class='unselected'><a class="navLink" href="graphicdesign.html">Graphic Design</a></li>
+            <li class='selected'><a class="navLink" href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+    <div id="wrapper">
 
       <section id="grid">
-        <div>
-          <img src="image/hl.jpg" alt="Lei Huang's portrait" />
-        </div>
+          <img src="image/hl.jpg" style="width:255px; height:auto" alt="Lei Huang's portrait" />
 
-        <div>
+        <div id="contacts">
           <h3>Contacts</h3>
           <p>Email: lxh492@miami.edu</p>
           <p>Phone: 9195235239</p>
+          <p><a href="https://leihuangvisual.wordpress.com/">Portfolio</a></p>
+          <p><a href="https://www.linkedin.com/in/lei-huang-133784153/">LinkedIn</a></p>
         </div>
       </section>
 
       <nav>
-        <ul>
+        <ul id='resumeNav'>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Professional Experience</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="https://leihuangvisual.wordpress.com/">Portfolio</a></li>
-          <li><a href="https://www.linkedin.com/in/lei-huang-133784153/">LinkedIn</a></li>
         </ul>
       </nav>
 
@@ -60,6 +67,7 @@
 
         <section id="experience">
           <h2> Professional Experience </h2>
+          <div id="job">
           <article>
             <h3> Social Media Intern </h3>
             <h4> Reel Media Group </h4>
@@ -128,11 +136,13 @@
               <li>Developed contacts and analyzed sources to pitch news story ideas and maintain a flow of news.</li>
               <li>Attended and actively contributed to daily editorial board meetings on event planning and operations.</li>
             </ul>
+          </div>
           </article>
         </section>
 
         <section id="skills">
           <h2> Skills </h2>
+          <div id="sk">
           <article>
             <h3> Media production </h3>
             <ul>
@@ -164,6 +174,7 @@
               <li> Sound Design </li>
               <li> Native in Mandarin Chinese </li>
             </ul>
+          </div>
           </article>
         </section>
       </main>

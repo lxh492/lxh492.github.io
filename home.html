@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link href="css/style.css" rel="stylesheet" />
   <head>
     <meta charset="UTF-8" />
       <title>Lei Huang</title>
@@ -12,18 +13,32 @@
 
     <nav>
       <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="visualstory.html">Visual story</a></li>
-        <li><a href="graphicdesign.html">Graphic Design</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="about.html">About</a></li>
+        <li class='selected'><a class="navLink" href="home.html">Home</a></li>
+        <li class='unselected'><a class="navLink" href="visualstory.html">Visual story</a></li>
+        <li class='unselected'><a class="navLink" href="graphicdesign.html">Graphic Design</a></li>
+        <li class='unselected'><a class="navLink" href="resume.html">Resume</a></li>
       </ul>
     </nav>
 
     <main>
-      <h2>Visual Storyteller</h2>
-      <h2>Graphic Designer</h2>
-    </main>
+      <h2>Welcome</h2>
+      <div class='introContainer'>
+        <img class='left' src="image/hl.jpg" alt="">
+        <div class='right'>
+          <p>
+            My name is Lei Huang, originally from China.
+            I am a graduate journalism student at University of Miami.
+            I am on my way to become a better visual storyteller.
+            Hope I can use my lens to explore the best version of the world.
+          </p>
+        </div>
+      </div>
+      <h2>A Visual Storyteller</h2>
+      <iframe class='storyTeller' src="https://player.vimeo.com/video/279352377" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class='graphicDesigner'>
 
+      </div>
+    </main>
+    
   </body>
 </html>

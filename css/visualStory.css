@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Lobster|Josefin+Sans:700');
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    /*margin: 5px 300px;*/
+    margin: 0 auto;
+}
+
+.videoItem {
+    background-color: rgb(243, 242, 204);
+    border-style: solid;
+    text-align: center;
+    width: auto;
+}
+
+.story {
+    margin-top: 10px;
+}
+
+p {
+    padding: 15px;
+    width: 560px;
+    text-align: justify;
+    margin: auto;
+}
