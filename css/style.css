@@ -78,6 +78,7 @@ h1 {
   margin: 0;
   text-align: center;
   background-color: rgba(249, 93, 93, 0.5);
+  width: auto;
   padding: 10px 0;
 }
 
