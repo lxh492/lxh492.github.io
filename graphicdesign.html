@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <link href="css/style.css" rel="stylesheet" />
-    <link href="css/graphicDesign.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" />
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Lei Huang</title>
     </head>
-    <body>
+    <body class="graphicBody">
         <header>
             <h1>Lei Huang</h1>
         </header>
 
         <nav>
             <ul>
-                <li class='unselected'><a class="navLink" href="home.html">Home</a></li>
-                <li class='unselected'><a class="navLink" href="visualstory.html">Visual story</a></li>
-                <li class='selected'><a class="navLink" href="graphicdesign.html">Graphic Design</a></li>
-                <li class='unselected'><a class="navLink" href="resume.html">Resume</a></li>
+                <li class="unselected"><a class="navLink" href="home.html">Home</a></li>
+                <li class="unselected"><a class="navLink" href="visualstory.html">Visual story</a></li>
+                <li class="selected"><a class="navLink" href="graphicdesign.html">Graphic Design</a></li>
+                <li class="unselected"><a class="navLink" href="resume.html">Resume</a></li>
             </ul>
         </nav>
+
         <div id="posterContainer">
             <h2>Film Poster</h2>
             <div class="posterItem posterGrid">
-                <img class="poster" style="height: 300px" src="image/1.jpg" alt="Affinity of a Town">
+                <a href="image/1.jpg" data-lightbox="poster1"data-title="Affinity of a Town"><img class="poster" style="height: 300px" src="image/1.jpg"></a>
                 <div class="paragraph">
                     <h3 >Poster: Affinity of a Town</h3>
                     <p>Affinity of a Town is a short documentary explores the effects of the absence of empathy in certain individuals of various social and economic classes.</p>
                 </div>
             </div>
+
             <div class="posterItem posterGrid">
-                <img class="poster" style="height: 300px" src="image/4.jpg" alt="7th Film Festival">
+                <a href="image/4.jpg" data-lightbox="poster2"data-title="7th Art Festival of Miami"><img class="poster" style="height: 300px" src="image/4.jpg"></a>
                 <div class="paragraph">
                     <h3 >Poster: 7th Art Festival of Miami</h3>
                     <p>The 7th Art Festival of Miami offers opportunities to film students and emerging filmmakers from around the world. The festival competition will provide an
@@ -40,6 +43,7 @@
                 </div>
             </div>
         </div>
+
         <h2>Infographic</h2>
         <div id=infographic>
             <div class="infoGraphicItem">
@@ -64,6 +68,10 @@
                 </div>
             </div>
         </div>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/lightbox-plus-jquery.js"></script>
 
     </body>
 </html>

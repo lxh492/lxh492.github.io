@@ -1,6 +1,16 @@
 /* style.css */
 @import url('https://fonts.googleapis.com/css?family=Abel|Lobster|Josefin+Sans:700');
 
+#posterContainer {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+#infographic{
+    text-align: center;
+}
+
 #grid {
   display: grid;
   grid-template-columns: 250px 250px;
@@ -11,7 +21,7 @@
 
 #education,
 #skills {
-  background-color: rgba(218, 180, 230, 0.9);
+  background-color: rgba(249, 93, 93, 0.5);
   padding: 10px 20px;
   margin-bottom: 10px;
 }
@@ -28,6 +38,19 @@
   grid-gap: 10px;
 }
 
+#job {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows:repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+#sk {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+}
+
 #resumeNav{
   text-align: center;
   background-color:gray;
@@ -36,6 +59,21 @@
   margin: 0;
   width: auto;
 }
+
+#resumeNav li {
+    display: inline-block;
+    margin: 5px 10px;
+    border-style: none;
+}
+
+#resumeNav li a{
+    color:white;
+}
+
+#resumeNav li a:visited{
+    color:red;
+}
+
 .selected {
   background-color: rgb(249, 249, 16)
 }
@@ -64,12 +102,83 @@
   size: 300px 300px;
 }
 
-
 .introContainer{
   text-align: center;
   width: auto;
   margin: auto;
 }
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    /*margin: 5px 300px;*/
+    margin: 0 auto;
+}
+
+.videoItem {
+    background-color: rgb(243, 242, 204);
+    border-style: solid;
+    text-align: center;
+    width: auto;
+}
+
+.story {
+    margin-top: 10px;
+}
+
+.videocontent {
+    padding: 15px;
+    width: 560px;
+    text-align: justify;
+    margin: auto;
+}
+
+.paragraph{
+    float: right;
+    width: 50%;
+    padding-right: 80px;
+    text-align: justify;
+}
+.poster{
+    float: left;
+}
+
+/* .posterGrid{
+    display: grid;
+    grid-template-areas: "poster paragraph"
+    "poster paragraph";
+
+} */
+.posterItem{
+    display: inline-block;
+    margin-right: 15px;
+    width: 700px;
+    text-align: justify;
+    border-style: solid;
+}
+
+.infoGraphicItem {
+    display: block;
+    border-style: solid;
+    margin: 30px 10%;
+}
+
+.infoPar{
+    text-align: justify;
+    padding: 10px 100px;
+}
+
+.infoPar h3{
+    text-align: center;
+}
+
+.graphicBody{
+    text-align: center;
+}
+
 
 
 h1 {
@@ -105,7 +214,7 @@ body {
 }
 
 #wrapper {
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
 }
 
