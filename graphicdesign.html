@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/lightbox.css" rel="stylesheet" />
+
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lei Huang</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/lightbox.css" rel="stylesheet" />
+        <link href="css/mobile.css" rel="stylesheet" />
     </head>
     <body class="graphicBody">
         <header>
@@ -26,7 +27,7 @@
         <div id="posterContainer">
             <h2>Film Poster</h2>
             <div class="posterItem posterGrid">
-                <a href="image/1.jpg" data-lightbox="poster1"data-title="Affinity of a Town"><img class="poster" style="height: 300px" src="image/1.jpg"></a>
+                <a href="image/1.jpg" data-lightbox="poster1" data-title="Affinity of a Town"><img class="poster" style="height: 300px" src="image/1.jpg" alt="poster1"></a>
                 <div class="paragraph">
                     <h3 >Poster: Affinity of a Town</h3>
                     <p>Affinity of a Town is a short documentary explores the effects of the absence of empathy in certain individuals of various social and economic classes.</p>
@@ -34,7 +35,7 @@
             </div>
 
             <div class="posterItem posterGrid">
-                <a href="image/4.jpg" data-lightbox="poster2"data-title="7th Art Festival of Miami"><img class="poster" style="height: 300px" src="image/4.jpg"></a>
+                <a href="image/4.jpg" data-lightbox="poster2" data-title="7th Art Festival of Miami"><img class="poster" style="height: 300px" src="image/4.jpg" alt="poster2"></a>
                 <div class="paragraph">
                     <h3 >Poster: 7th Art Festival of Miami</h3>
                     <p>The 7th Art Festival of Miami offers opportunities to film students and emerging filmmakers from around the world. The festival competition will provide an
@@ -46,9 +47,9 @@
 
         <h2>Infographic</h2>
         <div id=infographic>
-            <div class="infoGraphicItem">
-                <img style="height: 1300px" src="image/3.jpg" alt="Carbon Emissions in Sweden">
-                <div class="infoPar">
+            <div class="posterItem posterGrid">
+                <a href="image/3.jpg" data-lightbox="infographic1" data-title="Carbon Emissions in Sweden"><img style="height: 400px" src="image/3.jpg" alt="infographic1"></a>
+                <div class="paragraph">
                     <h3>Infographic: Carbon Emissions in Sweden</h3>
                     <p>This infographic shows the Carbon Emissions in Sweden visually. Sweden was the first country to establish an enviromental protection agency in 1967. Sweden has
                         postive experience of combining emissions reductions with an improved economy. Sweden also set a goal to reduce greenhouse gas (GHG) emission by 40 percent
@@ -56,8 +57,9 @@
                     </p>
                 </div>
             </div>
-            <div class="infoGraphicItem">
-                <img  style="width: 1000px"  src="image/2.jpg" alt="Online Dating">
+            <!-- <div class="infoGraphicItem"> -->
+            <div class="posterItem posterGrid">
+                <a href="image/2.jpg" data-lightbox="infographic2" data-title="Online Dating"><img style="width: 700px"  src="image/2.jpg" alt="infographic2"></a>
                 <div class="infoPar">
                     <h3>Infographic: Online Dating & Romantic Relationship</h3>
                     <p>This infographic will answer the following question: What has online dating done in modern romantic in the U.S.?
@@ -72,6 +74,7 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/lightbox.js"></script>
         <script src="js/lightbox-plus-jquery.js"></script>
+
 
     </body>
 </html>

@@ -1,0 +1,112 @@
+@media (max-width: 414px) {
+  .navLink {
+    font-size: 24px;
+  }
+
+  h3,
+  h4 {
+    font-size:24px;
+  }
+
+  p,
+  li {
+    font-size: 20px;
+  }
+
+  main {
+    display: block;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+  }
+
+  span {
+    display:none;
+  }
+
+  .left {
+    image-resolution: 200;
+  }
+
+  .right {
+    width: 380px;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .storyTeller {
+    width: 414px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .gridContainer {
+    display: block;
+  }
+
+  .story {
+    width: 414px;
+  }
+
+  .videoItem {
+    border-width:2px;
+    margin-top: 10px;
+  }
+
+  .videocontent {
+    padding: 10px;
+    width: 380px;
+  }
+
+  .posterItem{
+    display: inline-block;
+    width: 414px;
+  }
+
+  .poster{
+      float: none;
+      text-align: center;
+  }
+  .paragraph{
+      float: none;
+      width: 380px;
+      padding-right: 80px;
+      text-align: justify;
+  }
+
+  #wrapper {
+    width: 400px;
+  }
+
+  #contacts {
+    margin-bottom: 10px;
+  }
+
+  #resumeNav{
+    font-size: 20px;
+  }
+
+  #grid {
+    display: block;
+
+  }
+
+  #school,
+  #job,
+  #sk {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
