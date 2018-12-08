@@ -25,8 +25,9 @@
   }
 
   span {
-    display:none;
+    display:inline;
   }
+
 
   .left {
     /* width: 150; */
@@ -64,7 +65,14 @@
 
   .posterItem{
     display: inline-block;
-    width: 414px;
+    width: 400px;
+    margin:10px auto;
+    border:none;
+  }
+
+  .posterItem a {
+    position:relative;
+    left: 83px;
   }
 
   .poster{
@@ -74,16 +82,44 @@
   .paragraph{
       float: none;
       width: 380px;
-      padding-right: 80px;
+      padding: 5px;
       text-align: justify;
   }
+
+  .paragraph h3 {
+    text-align: center;
+  }
+
+  .onlineinfo {
+    width:300px;
+    position:relative;
+    right: 30px;
+  }
+
+  .infoPar h3 {
+    padding: 0 auto;
+  }
+
+  .infoPar{
+      width:380px;
+      padding: 5px;
+  }
+
+  .infoPar p {
+    text-align:justify;
+  }
+
 
   #wrapper {
     width: 400px;
   }
 
   #contacts {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    width:auto;
+    height:auto;
+    left:auto;
+    top:10px;
   }
 
   #resumeNav{
@@ -100,15 +136,3 @@
   #sk {
     display: block;
   }
-
-
-
-
-
-
-
-
-
-
-
-}

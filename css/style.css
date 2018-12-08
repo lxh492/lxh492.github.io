@@ -7,21 +7,20 @@
   margin-bottom: 40px;
 }
 
-#grid {
+/* #grid {
   display: grid;
   grid-template-columns: 250px 250px;
-  grid-template-rows: 220px;
+  grid-template-rows: 120px;
   grid-gap: 10px;
-}
-
-#grid img {
-  position:absolute;
-  top:20px;
-  left:260px;
-}
+} */
 
 #contacts {
-  display: block;
+  position:relative;
+  top:-80px;
+  left:0px;
+  height:0;
+  width:200px;
+  margin:0;
 }
 
 #education,
@@ -57,6 +56,7 @@
 }
 
 #resumeNav{
+  font-size: 20px;
   text-align: center;
   background-color:gray;
   list-style-type: none;
@@ -175,6 +175,11 @@
     margin: 30px 10%;
 }
 
+.onlineinfo {
+  width:700px;
+}
+
+
 .infoPar{
     text-align: justify;
     padding: 10px 100px;
@@ -188,6 +193,13 @@
     text-align: center;
 }
 
+.socialMedia {
+  padding:20px;
+}
+
+.copyright {
+  padding-bottom: 10px;
+}
 
 
 h1 {
@@ -206,6 +218,7 @@ h2 {
 
 h3 {
   font-family: 'Josefin Sans', sans-serif;
+
 }
 
 main {
@@ -217,7 +230,7 @@ main {
 
 body {
   font-family: 'Abel', sans-serif;
-  background-image: url("../image/bg.jpg");
+  background-image: url("../image/bg1.jpg");
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
@@ -262,4 +275,14 @@ a:visited {
 
 p {
   margin: 0;
+}
+
+span {
+  display:none;
+}
+
+footer {
+  background-color: rgba(249, 93, 93, 0.5);
+  text-align: center;
+  margin-top: 20px;
 }
