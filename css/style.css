@@ -12,7 +12,12 @@
   grid-template-columns: 250px 250px;
   grid-template-rows: 220px;
   grid-gap: 10px;
+}
 
+img {
+  position:absolute;
+  top:10px;
+  left:30px;
 }
 
 #education,

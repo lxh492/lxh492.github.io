@@ -1,6 +1,8 @@
 @media (max-width: 414px) {
   .navLink {
+    display: block;
     font-size: 24px;
+    width: auto;
   }
 
   h3,
@@ -27,7 +29,7 @@
   }
 
   .left {
-    image-resolution: 200;
+    /* width: 150; */
   }
 
   .right {
